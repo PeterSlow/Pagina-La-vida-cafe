@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaVida</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style2.css">
+    
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <h1><img src="imagenes/sandwich.png" alt="sandwich"></h1>
+                </div>  
+            
+                <div class="containerr">
+                    <div class="red" id="red1">
+                        <h3><a href="https://www.instagram.com/lavidacafelalinea/">
+                            <img border="0" alt="W3Schools" src="imagenes/insta.png" width="50" height="50">
+                            </a></h3>
+                <div class="red" id="red2">
+                        <h3><a href="https://www.facebook.com/lavidacafe">
+                            <img border="0" alt="W3Schools" src="imagenes/face.png" width="50" height="50">
+                            </a></h3>
+                            <div class="red" id="red3">
+                                <h3><a href="https://www.tripadvisor.es/Restaurant_Review-g660738-d13223398-Reviews-La_Vida_Cafe-La_Linea_de_la_Concepcion_Province_of_Cadiz_Andalucia.html">
+                                    <img border="0" alt="W3Schools" src="imagenes/tripad.png" width="50" height="50">
+                                    </a></h3>
+                </div>
+                </div>
+                </div>
+
+                <div class="two columns u-pull-right">
+                    <ul>
+                         <li class="submenu">
+                            <img src="imagenes/carrito.png" alt="">
+                            <div id="carrito">
+                                <p class="vacio">carrito vacio</p>
+                                <table class="u-full-width">
+
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Platos</th>
+                                            <th>Precios</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="imagenes/bocata1.jpg" width="100">
+                                            </td>
+                                            <td>Tostada de york, aguacate y queso blanco</td>
+                                            <td>4 euros</td>
+                                            <td><a href="#" class="borrar-platillo"></a>X</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="imagenes/bocata2.jpg" width="100">
+                                            </td>
+                                            <td>Pan integral, queso blanco, york y tomate</td>
+                                            <td>4 euros</td>
+                                            <td><a href="#" class="borrar-platillo"></a>X</td>
+                                        </tr>
+                                    </tbody>
+                                    <a href="#" class="button u-full-width">vaciar carrito</a>
+
+
+                                </table>
+                            </div>
+                        </li>
+
+
+                    </ul>
+
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2>BIENVENIDOS A "LA VIDA CAFE"</h2>
+                        <p>Tu lugar en La linea de la Concepcion</p>
+                        <form>
+                            <input class="u-full-width" type="text" placeholder="¿Que te apetece hoy?" id="buscador">
+                            <input type="submit" class="submit-buscador">
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p>Multiples platos diferentes<br>
+                    Explora todos nuestros postres<br><p>Buen ambiente</p>
+
+                </div>
+                <div class="four columns icono icono1">
+                    <p>Todo tipo de meriendas<br>
+                    Todo tipo de café</p>
+
+                </div>
+                <div class="four columns icono icono2">
+                    <p>Platos sanos<br>
+                    Pruebalos todos<br>Buen rollo</p>
+
+                </div>
+                <div class="four columns icono icono3">
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="lista-platos" class="container">
+        <h1 class="encabezado">Pedidos en Linea</h1>
+
+        <div class="row">
+            
+           
+            <div class="four columns">
+                <div class="card">
+                    <img src="imagenes/bocata1.jpg" class="imagen-bocadillo u-full-width">
+                    <div class="info-card">
+                        <h4>Tostada de aguacate, york y queso blanco</h4>
+                        <p>Pide tu bebida</p>
+                        <img src="imagenes/estrellas.png">
+                        <p class="precio">5 euros<span class="u-pull-right">4 euros</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="four columns">
+                <div class="card">
+                    <img src="imagenes/bocata2.jpg" class="imagen-bocadillo u-full-width">
+                    <div class="info-card">
+                        <h4>Tostada de pan integral, york, queso blanco y tomate</h4>
+                        <p>Pidela con tu cafe</p>
+                        <img src="imagenes/estrellas.png">
+                        <p class="precio">4 euros<span class="u-pull-right">2,5 euros</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="four columns">
+                <div class="card">
+                    <img src="imagenes/bocata3.jpg" class="imagen-bocadillo u-full-width">
+                    <div class="info-card">
+                        <h4>Campero, pollo, lechuga, tomate y queso</h4>
+                        <p>Pide tu bebida</p>
+                        <img src="imagenes/estrellas.png">
+                        <p class="precio">5 euros<span class="u-pull-right">4 euros</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="four columns">
+                <div class="card">
+                    <img src="imagenes/bocata4.jpg" class="imagen-bocadillo u-full-width">
+                    <div class="info-card">
+                        <h4>Sandwich La Vida</h4>
+                        <p>Pide tu bebida</p>
+                        <img src="imagenes/estrellas.png">
+                        <p class="precio">5 euros<span class="u-pull-right">4 euros</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="four columns">
+                <div class="card">
+                    <img src="imagenes/bocata6.jpg" class="imagen-bocadillo u-full-width">
+                    <div class="info-card">
+                        <h4>Bocadillo carne hilada</h4>
+                        <p>Pide tu bebida</p>
+                        <img src="imagenes/estrellas.png">
+                        <p class="precio">5 euros<span class="u-pull-right">4 euros</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="four columns">
+                <div class="card">
+                    <img src="imagenes/cazuela1.jpg" class="imagen-bocadillo u-full-width">
+                    <div class="info-card">
+                        <h4>Cazuelita con huevo</h4>
+                        <p>Pide tu bebida</p>
+                        <img src="imagenes/estrellas.png">
+                        <p class="precio">5 euros<span class="u-pull-right">4 euros</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row">
+
+            <div class="four columns">
+                <div class="card">
+                    <img src="imagenes/crepe1.jpg" class="imagen-bocadillo u-full-width">
+                    <div class="info-card">
+                        <h4>Crepe choco blanco y fresas</h4>
+                        <p>Pidelo con tu cafe</p>
+                        <img src="imagenes/estrellas.png">
+                        <p class="precio">5 euros<span class="u-pull-right">4 euros</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="four columns">
+                <div class="card">
+                    <img src="imagenes/gofre1.jpg" class="imagen-bocadillo u-full-width">
+                    <div class="info-card">
+                        <h4>Gofre Nutella y fresas</h4>
+                        <p>Pidela con tu cafe</p>
+                        <img src="imagenes/estrellas.png">
+                        <p class="precio">4 euros<span class="u-pull-right">2,5 euros</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="four columns">
+                <div class="card">
+                    <img src="imagenes/gofre2.jpg" class="imagen-bocadillo u-full-width">
+                    <div class="info-card">
+                        <h4>Nutella, choco blanco y fresas</h4>
+                        <p>Pidelo con tu cafe</p>
+                        <img src="imagenes/estrellas.png">
+                        <p class="precio">5 euros<span class="u-pull-right">4 euros</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="row">
+
+            <div class="four columns">
+                <div class="card">
+                    <img src="imagenes/tarta1.jpg" class="imagen-bocadillo u-full-width">
+                    <div class="info-card">
+                        <h4>Tarta La Vida</h4>
+                        <p>Pidela con tu cafe</p>
+                        <img src="imagenes/estrellas.png">
+                        <p class="precio">4 euros<span class="u-pull-right">2,5 euros</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+     </div>
+ </div>
+
+ <footer class="footer">
+     <div class="container">
+         <div class="row">
+             <div class="four columns">
+                 <nav class="menu">
+                     <a class="enlace" href="#">Pedidos a domicilio</a>
+                     <a class="enlace" href="#">Pedidos en linea</a>
+                     <a class="enlace" href="#">Pedidos por telefono</a>
+                     <a class="enlace" href="#">Menu</a>
+                     <a class="enlace" href="#">Bebidas</a>
+
+                 </nav>
+
+             </div>
+             <div class="four columns">
+                 <nav class="menu">
+                     <a class="enlace" href="#">Restaurante</a>
+                     <a class="enlace" href="#">Ubicacion</a>
+                     <a class="enlace" href="#">Telefono</a>
+
+                 </nav>
+
+             </div>
+
+         </div>
+
+     </div>
+
+ </footer>
+
+</body>
+</html>
